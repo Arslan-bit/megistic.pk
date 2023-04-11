@@ -2,10 +2,7 @@
 
     "version": 2, 
     "builds":[
-        {
-            "source": "/feedback/((?!general).*)",
-            "destination": "/api/feedback/general"
-        },
+
         {
         
             "src": "poll/wsgi.py",
