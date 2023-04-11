@@ -34,6 +34,6 @@ class PaymentsView(generics.ListCreateAPIView):
 
 def index(request):
     
-    return HttpResponse('First Project API')
+    return HttpResponse('First Project API Congratulations!')
 
 
