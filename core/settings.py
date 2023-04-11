@@ -101,6 +101,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+deterministic=True
 
 
 # Password validation
