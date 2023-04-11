@@ -7,6 +7,7 @@ from rest_framework.viewsets import (
 )
 from rest_framework import permissions
 from .models import Payments,Delivery
+from django.http import HttpResponse
 
 # create Register Form
 # user site
@@ -30,5 +31,9 @@ class PaymentsView(generics.ListCreateAPIView):
     def get_context_data(self, **kwargs):
         return Delivery.objects.filter(user=self.request.user)
     
+
+def index(request):
+    
+    return HttpResponse('First Project API')
 
 
