@@ -23,6 +23,7 @@ AUTH_USER_MODEL = 'accounts.User'
 # API_KEY
 API_KEY = '293832-67745-11e5-88de-5600000c6b13'
 
+STATICFILES_BUILD_DIR = 'staticfiles_build'
 
 # Application definition
 
